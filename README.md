@@ -23,3 +23,17 @@ result = find_word(boggle_board, word)
 
 # Print the result
 print(result)  # True or False
+
+Replace boggle_board and word with your own values. The function returns True if the word is found, and False otherwise.
+
+##Example
+
+# Test cases
+print(find_word(boggle_board, "C"))  # True
+print(find_word(boggle_board, "EAR"))  # True
+print(find_word(boggle_board, "EARS"))  # False
+print(find_word(boggle_board, "BAILER"))  # True
+print(find_word(boggle_board, "RSCAREIOYBAILNEA"))  # True
+print(find_word(boggle_board, "CEREAL"))  # False
+print(find_word(boggle_board, "ROBES"))  # False
+
