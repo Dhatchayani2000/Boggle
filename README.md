@@ -22,7 +22,10 @@ word = "C"
 result = find_word(boggle_board, word)
 
 # Print the result
-print(result)  # True or False ```
+print(result)  # True or False
+
+
+
 
 Replace boggle_board and word with your own values. The function returns True if the word is found, and False otherwise.
 
